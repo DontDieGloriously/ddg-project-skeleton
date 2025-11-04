@@ -1,0 +1,43 @@
+name: Feature request
+description: Suggest an idea for this project
+title: "[Feature]: "
+labels: [enhancement]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for proposing a feature!  Please tell us about the problem you are trying to solve and your proposed solution.
+  - type: markdown
+    attributes:
+      value: |
+        **Questions / usage help belong in Discord:** https://discord.dontdiegloriously.com  
+        Use this form only for bugs/features.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem description
+      description: A clear and concise description of what the problem is.  Ex. I'm always frustrated when [...].
+    validations:
+      required: true
+  - type: textarea
+    id: proposed-solution
+    attributes:
+      label: Proposed solution
+      description: A clear and concise description of what you want to happen.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: A clear and concise description of any alternative solutions or features you've considered.
+    validations:
+      required: false
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Add any other context or screenshots about the feature request here.
+    validations:
+      required: false

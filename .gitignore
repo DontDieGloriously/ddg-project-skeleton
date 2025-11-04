@@ -1,0 +1,51 @@
+# General files to ignore in all projects
+
+# Compiled object files and binaries
+*.o
+*.so
+*.out
+*.exe
+*.dll
+
+# Log files
+*.log
+*.log.*
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+
+# Node modules
+node_modules/
+
+# Python virtual environments
+venv/
+env/
+__pycache__/
+
+# Rust cargo artefacts
+target/
+
+# Build artefacts
+build/
+dist/
+*.egg-info
+
+# Editor directories
+.idea/
+.vscode/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Documentation builds
+_site/
+docs/_build/
+site/
+
+# Secret configuration files
+.env
+*.secret

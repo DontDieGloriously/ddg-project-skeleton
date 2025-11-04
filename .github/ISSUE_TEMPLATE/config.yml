@@ -1,0 +1,9 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Don’t Die Gloriously Discord
+    url: https://discord.dontdiegloriously.com
+    about: Ask questions and discuss ideas with the community and maintainers.
+
+  - name: 🔐 Report a security vulnerability (private email)
+    url: mailto:security@dontdiegloriously.com
+    about: Do not post security issues publicly (Discord/GitHub). Email us instead.

@@ -1,0 +1,24 @@
+---
+# Citation file for this project
+
+cff-version: 1.2.0
+message: "If you use this repository, please cite it using the metadata below."
+title: "Project Title"
+version: "0.1.0"
+doi: "10.0000/your-doi-here"
+date-released: "2025-01-01"
+authors:
+  - family-names: Doe
+    given-names: Jane
+    email: jane@example.com
+    orcid: "0000-0000-0000-0000"
+  - family-names: Roe
+    given-names: John
+    email: john@example.com
+    orcid: "0000-0000-0000-0001"
+url: "https://github.com/your-org/your-project"
+abstract: |
+  This citation metadata describes the software package.  Replace the
+  placeholder names, version, release date and DOI with your project’s
+  information.  Including a `CITATION.cff` file in the default branch
+  enables GitHub’s “Cite this repository” feature【44535719274835†L170-L223】.

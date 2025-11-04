@@ -1,0 +1,5 @@
+# This file designates individuals or teams responsible for sections of the codebase.
+# When someone opens a pull request that modifies code in the specified paths,
+# the owners listed here will automatically be requested for review.
+
+*       @dont-die-gloriously/maintainers

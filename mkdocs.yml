@@ -1,0 +1,29 @@
+site_name: Project Name
+site_url: https://example.dontdiegloriously.com
+repo_url: https://github.com/DontDieGloriously/<your-repo>
+repo_name: DontDieGloriously/<your-repo>
+
+theme:
+  name: material
+
+docs_dir: docs
+# MkDocs outputs to "site" by default; we override to "_site" in the workflow
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Contributing: contributing.md
+  - Architecture: architecture.md
+  - Licensing:
+      - Code & Firmware License: ../LICENSE.md
+      - Docs License: LICENSE_DOCS.md
+      - Third-Party Notices: licenses.md
+      - Commercial Terms: commercial-license.md
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+
+plugins:
+  - search
