@@ -38,7 +38,7 @@ jobs:
       - name: 🏗️ Build MkDocs site
         run: mkdocs build --clean --site-dir _site
       - name: ⬆️ Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: _site
   deploy:
@@ -51,29 +51,3 @@ jobs:
       - name: 🚀 Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
-
-
-
-
-
-
-
-
-
-
-
-
-      - name: Build documentation
-        run: |
-          mkdir -p _site
-          cp -R docs/* _site/
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
-        with:
-          path: _site
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v2
-        with:
-          artifact_name: github-pages
-          token: ${{ secrets.GITHUB_TOKEN }}
